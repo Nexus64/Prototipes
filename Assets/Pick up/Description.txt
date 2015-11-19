@@ -1,1 +1,17 @@
 pick up prototype
+The main mechanism of the prototype is the pick up/throw mechanism. The player can pick up stones and throw 
+it to the enemies
+Objects
+	1-Main character / player
+	2-Throwdable objects / stones
+	3-Equiped object visor
+	4-Target
+
+-The Visor show the object that the player is currently holding.
+
+-When the player hasn't holding any object, the visor show the object below the character.
+-pulsar A cuando no hay ningun objeto equipado equipa el objeto bajo el personaje
+-Pressing A when the player didn't have any object 
+-Los objetos tienen una catidad de durabilidad, al llegar a cero el objeto se destruye
+-La durabilidad disminuye cuando los objetos colisionan con elementos del escenario
+-Para lanzar el objeto equipado
